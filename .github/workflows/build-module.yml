@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: openwrt/openwrt
+          repository: mj22226/openwrt
           ref: "bcm2712-6.1"
           fetch-depth: 0
 
