@@ -51,7 +51,8 @@ jobs:
           echo "CONFIG_PACKAGE_kmod-crypto-lib-chacha20=m" >> .config
           echo "CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=m" >> .config
           echo "CONFIG_PACKAGE_kmod-crypto-chacha20poly1305=m" >> .config
-
+          echo "CONFIG IS HERE:"
+          cat .config
           make defconfig
 
           echo "    > make tools/install"
