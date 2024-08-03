@@ -13,7 +13,7 @@ jobs:
             pkgarch: arm_cortex-a72
             target: bcm27xx
             subtarget: bcm2712
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+            vermagic: "7d3ba63000f17d8812fd4fad5ea60499"
 
     steps:
       - uses: actions/checkout@v4
